@@ -10,7 +10,7 @@ We have all the hard work done for you. Enjoy!
 ## Installation.
 
 - Get a 16 GB SD-card which will hold the image. 
-- Download the image RPi_64OS_DNN.zip (3.5 GByte!) from our [Gdrive](https://drive.google.com/file/d/1gK9CJS8dFSt540zC5JDaAbXSWWiitN-G/view?usp=sharing) site.
+- Download the image RPi_64OS_DNN.zip (3.5 GByte!) from our [Gdrive](https://drive.google.com/file/d/1wJeuIGhs-49lcPQDJoM-AF-IdkAODVYe/view?usp=sharing) site.
 - Flash the image on the SD-card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD-card in your Raspberry Pi Zero 2 and enjoy.
 - No WiFi installed. Password: ***3.14***
