@@ -24,8 +24,11 @@ We have all the hard work done for you. Enjoy!
 * Use a tool like [GParted](https://gparted.org/) `sudo apt-get install gparted` to expand the 16 GB image to larger SD-cards.
 * Chromium, just like FireFox, will not work due to graphic rendering issues.
 * Please note, the Raspberry Pi Zero 2 is a very new device. Lost of (software) updates can be expected in the coming months.
-Hopefully, the Pi team will release a genuine Zero 2 64-bit version.
+* We commit several deep learning benchmarks. Read all about them at our [site](https://qengineering.eu/install-64-os-on-raspberry-pi-zero-2.html)<br/>
+* Most worrying was stuttering behaviour while working with the 64-bit operating system on the Raspberry Pi Zero 2. It wasn't snappy at all. Below compile times of gcc. Look at the 94 seconds it takes to do the job on the 64-bit version, as where the 32-bit OS can do it in 22. You can imagine we are not over-enthusiastic about the current 64-bit Bullseye version on a Raspberry Pi Zero 2.<br/>
 
+![output image](https://qengineering.eu/images/gcc_timing.png)<br/>
+Hopefully, the Pi team will release a genuine Zero 2 64-bit version.
 
 ------------
 
