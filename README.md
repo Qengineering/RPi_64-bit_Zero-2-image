@@ -1,6 +1,6 @@
 # Raspbeery Pi Zero 2 64-bit OS image
 ![output image]( https://qengineering.eu/images/SDcard16GBZero2.webp )<br/>
-## A Raspberry Pi Zero 2 64-bit OS Buster with OpenCV, TensorFlow Lite and ncnn
+## A Raspberry Pi Zero 2 64-bit OS Bullseye with OpenCV, TensorFlow Lite and ncnn
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
 The installation of the 64-bit operating system on the new Raspberry Pi Zero 2 is somewhat cumbersome.<br/>
 We have all the hard work done for you. **Don't forget to read the last remark!**
