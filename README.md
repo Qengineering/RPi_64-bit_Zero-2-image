@@ -3,14 +3,14 @@
 ## A Raspberry Pi Zero 2 64-bit OS Buster with OpenCV, TensorFlow Lite and ncnn
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
 The installation of the 64-bit operating system on the new Raspberry Pi Zero 2 is somewhat cumbersome.<br/>
-We have all the hard work done for you. Enjoy!
+We have all the hard work done for you. **Don't forget to read the last remark!**
 
 ------------
 
 ## Installation.
 
 - Get a 16 GB SD-card which will hold the image. 
-- Download the image RPi_64OS_DNN.zip (3.5 GByte!) from our [Gdrive](https://drive.google.com/file/d/1wJeuIGhs-49lcPQDJoM-AF-IdkAODVYe/view?usp=sharing) site.
+- Download the image RPi_64OS_Zero_2.zip (3.5 GByte!) from our [Gdrive](https://drive.google.com/file/d/1wJeuIGhs-49lcPQDJoM-AF-IdkAODVYe/view?usp=sharing) site.
 - Flash the image on the SD-card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD-card in your Raspberry Pi Zero 2 and enjoy.
 - No WiFi installed. Password: ***3.14***
