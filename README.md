@@ -25,9 +25,9 @@ We have all the hard work done for you. **Don't forget to read the last remark!*
 * Chromium, just like FireFox, will not work due to graphic rendering issues.
 * Please note, the Raspberry Pi Zero 2 is a very new device. Lost of (software) updates can be expected in the coming months.
 * We commit several deep learning benchmarks. Read all about them at our [site](https://qengineering.eu/install-64-os-on-raspberry-pi-zero-2.html)<br/>
-* Most worrying was stuttering behaviour while working with the 64-bit operating system on the Raspberry Pi Zero 2. It wasn't snappy at all. Below compile times of gcc. Look at the 94 seconds it takes to do the job on the 64-bit version, as where the 32-bit OS can do it in 22. You can imagine we are not over-enthusiastic about the current 64-bit Bullseye version on a Raspberry Pi Zero 2.<br/>
+* Most worrying was stuttering behaviour while working with the 64-bit operating system on the Raspberry Pi Zero 2. It wasn't snappy at all. Below compile times of gcc. Look at the 94 seconds it takes to do the job on the 64-bit version, as where the 32-bit OS can do it in 22. You can imagine we are not over-enthusiastic about the current 64-bit Bullseye version on a Raspberry Pi Zero 2. The 64-bit Ubuntu server was faster, but it doesn't have a graphical desktop. Only a terminal input. And for those unfamiliar with Ubuntu, the desktop is only possible with 4 GB of RAM onboard.<br/>
 
-![output image](https://qengineering.eu/images/gcc_timing.png)<br/>
+![output image](https://qengineering.eu/images/gcc_timing2b.webp)<br/>
 Hopefully, the Pi team will release a genuine Zero 2 64-bit version.
 
 ------------
