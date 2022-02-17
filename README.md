@@ -1,18 +1,14 @@
 # Raspbeery Pi Zero 2 64-bit OS image
 ![output image]( https://qengineering.eu/images/SDcard16GBZero2.webp )<br/>
 ## A Raspberry Pi Zero 2 64-bit OS Bullseye with OpenCV, TensorFlow Lite and ncnn
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
-The installation of the 64-bit operating system on the new Raspberry Pi Zero 2 is somewhat cumbersome.<br/>
-We have all the hard work done for you. **Don't forget to read the last remark!**
-
-------------
-
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
 ## Installation.
 
-- Get a 16 GB SD-card which will hold the image. 
-- Download the image RPi_64OS_Zero_2.zip (3.5 GByte!) from our [Gdrive](https://drive.google.com/file/d/1tawsEqNqKA84FekSsMlnQukslOTfpAP6/view?usp=sharing) site.
+- Get a SD-card which will hold the image (min 16 GB). 
+- Download the image RPi_64OS_Zero_2.xz (1.7 GByte!) from our [Gdrive](https://drive.google.com/file/d/1VPpalGylbriNlVggF35PeVApsVFXwlHv/view?usp=sharing) site.
 - Flash the image on the SD-card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
-- Insert the SD-card in your Raspberry Pi Zero 2 and enjoy.
+- Insert the SD-card in your Raspberry Pi Zero 2.
+- Wait a few minutes, while the image will expand to the full size of your SD card.
 - No WiFi installed. Password: ***3.14***
 
 ------------
@@ -21,14 +17,11 @@ We have all the hard work done for you. **Don't forget to read the last remark!*
 
 * You can [overclock the Raspberry Pi Zero 2](https://qengineering.eu/install-64-os-on-raspberry-pi-zero-2.html) if your SD-card is not too worn out. 1200 MHz is no problem. Most deep learning examples even work at 1300 MHz.<br/>
 * If you are in need of extra space, you can delete the opencv and the opencv_contrib folder from the SD-card. There are no longer needed since all libraries are placed in the /usr/local directory.
-* Use a tool like [GParted](https://gparted.org/) `sudo apt-get install gparted` to expand the 16 GB image to larger SD-cards.
-* Chromium, just like FireFox, will not work due to graphic rendering issues.
 * Please note, the Raspberry Pi Zero 2 is a very new device. Lost of (software) updates can be expected in the coming months.
 * We commit several deep learning benchmarks. Read all about them at our [site](https://qengineering.eu/install-64-os-on-raspberry-pi-zero-2.html)<br/>
-* Most worrying was stuttering behaviour while working with the 64-bit operating system on the Raspberry Pi Zero 2. It wasn't snappy at all. Below compile times of gcc. Look at the 94 seconds it takes to do the job on the 64-bit version, as where the 32-bit OS can do it in 22. You can imagine we are not over-enthusiastic about the current 64-bit Bullseye version on a Raspberry Pi Zero 2. The 64-bit Ubuntu server was faster, but it doesn't have a graphical desktop. Only a terminal input. And for those unfamiliar with Ubuntu, the desktop is only possible with 4 GB of RAM onboard.<br/>
+* As explained on the website, you have only 100 MB of free RAM for your applications left once the 64-bit Bullseye is loaded. To enlarge the amount of RAM to more practical sizes, we use a large swapping space. It will wear your SD card when used intensively. It also slows down the performance, as you can see in the graph below. The 64-bit Ubuntu server was faster, but it doesn't have a graphical desktop. Only a terminal input. And for those unfamiliar with Ubuntu, the desktop is only possible with 4 GB of RAM onboard.<br/>
 
-![output image](https://qengineering.eu/images/gcc_timing2b.webp)<br/>
-Hopefully, the Pi team will release a genuine Zero 2 64-bit version.
+![output image](https://qengineering.eu/images/gcc_timing4.png)<br/>
 
 ------------
 
